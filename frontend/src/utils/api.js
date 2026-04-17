@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios';const API_BASE='https://hireflow-vsxq.onrender.com/api';
 const API_BASE = '/api';
 const api = axios.create({ baseURL: API_BASE });
 api.interceptors.request.use((config) => {
